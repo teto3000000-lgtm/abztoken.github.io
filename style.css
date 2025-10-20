@@ -6,7 +6,14 @@
   --glass:rgba(255,255,255,0.03)
 }
 *{box-sizing:border-box}
-body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,#05060a 0%,#09121a 100%);color:#e6eef6;-webkit-font-smoothing:antialiased}
+body<nav style="background:#111; padding:15px; text-align:center;">
+  <a href="index.html" style="color:#00d4ff; margin:10px; text-decoration:none;">Home</a>
+  <a href="about.html" style="color:#00d4ff; margin:10px; text-decoration:none;">About</a>
+  <a href="roadmap.html" style="color:#00d4ff; margin:10px; text-decoration:none;">Roadmap</a>
+  <a href="tokenomics.html" style="color:#00d4ff; margin:10px; text-decoration:none;">Tokenomics</a>
+  <a href="contact.html" style="color:#00d4ff; margin:10px; text-decoration:none;">Contact</a>
+</nav>
+{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,#05060a 0%,#09121a 100%);color:#e6eef6;-webkit-font-smoothing:antialiased}
 .container{max-width:980px;margin:28px auto;padding:18px}
 .header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px}
 .logo{display:flex;align-items:center;gap:12px}
